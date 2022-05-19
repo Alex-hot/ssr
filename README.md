@@ -1,0 +1,2 @@
+# ssr
+a nuxt project
