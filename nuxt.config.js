@@ -16,6 +16,13 @@ module.exports = {
     ]
   },
   /*
+  ** routers config
+   */
+  router: {
+    middleware: 'auth'
+  },
+
+  /*
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
@@ -46,7 +53,7 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
     }
   }
 }

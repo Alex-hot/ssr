@@ -1,22 +1,22 @@
-# my-nuxt
+### 安装
+  - npx create-nuxt-app XXXX
+  - Choose renderring mode Universal (SSR) ✔️
 
-> My ace Nuxt.js project
 
-## Build Setup
+### 开发
+  - npm run dev
 
-```bash
-# install dependencies
-$ npm install
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+### 打包
+  - npm run build
+  - npm run start
 
-# build for production and launch server
-$ npm run build
-$ npm run start
 
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+### 生命周期
+  - nuxtServerInit
+    - 适用场景是对store操作
+  - middleware 
+    - 中间件流程顺序：
+      - nuxt.config.js -> layouts -> pages
+  - validate
+    - 参数校验，校验失败，则自动跳转错误页面
