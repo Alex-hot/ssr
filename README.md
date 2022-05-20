@@ -1,6 +1,6 @@
 # my-nuxt
 
-> My flawless Nuxt.js project
+> My ace Nuxt.js project
 
 ## Build Setup
 

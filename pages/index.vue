@@ -6,7 +6,7 @@
         my-nuxt
       </h1>
       <h2 class="subtitle">
-        My flawless Nuxt.js project
+        My ace Nuxt.js project
       </h2>
       <div class="links">
         <a
