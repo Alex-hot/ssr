@@ -81,34 +81,6 @@
       - 使用vue-router的beforeRouteLeave钩子
       - 插件全局后置守卫
 
-  - 
 
-  - 
-
-  - 
-
-  - 
-
-  - 
-
-  - 
-
-  - 
-
-  - 
-
-  - 
-
-  - 
-
-  - 
-
-    - 
-
-    
-
-    
-
-    
-
-    
+### 数据交互
+  - 安装 nuxtjs/axios @nuxtjs/proxy

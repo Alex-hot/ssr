@@ -7,6 +7,11 @@
     <nuxt-link to="/reg" active-class="app_header--active">注册</nuxt-link>
   </nav>
 </template>
+<script>
+export default {
+  name: "app-header",
+};
+</script>
 <style scoped>
 .app_header--active {
   background-color: #399;

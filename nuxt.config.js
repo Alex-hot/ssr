@@ -22,7 +22,6 @@ module.exports = {
     middleware: 'auth',
     //扩展路由
     extendRoutes(routes, resolve) {
-      console.log('routes:', routes)
       routes.push({
         name: 'home',
         path: '/index',
@@ -45,6 +44,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/router'
   ],
   /*
   ** Nuxt.js dev-modules
