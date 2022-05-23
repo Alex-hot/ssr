@@ -19,7 +19,16 @@ module.exports = {
   ** routers config
    */
   router: {
-    middleware: 'auth'
+    middleware: 'auth',
+    //扩展路由
+    extendRoutes(routes, resolve) {
+      console.log('routes:', routes)
+      routes.push({
+        name: 'home',
+        path: '/index',
+        component: resolve(__dirname, 'pages/index.vue')
+      })
+    }
   },
 
   /*
@@ -30,6 +39,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    'assets/css/transition.css'
   ],
   /*
   ** Plugins to load before mounting the App

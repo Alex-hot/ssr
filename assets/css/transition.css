@@ -1,0 +1,31 @@
+/* 路由统一动销 */
+
+
+/* 动画形式 */
+.page-enter-active {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.page-leave-active {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+/* 入 退 */
+.page-enter,
+.page-leave {
+    transition: 0;
+}
+
+
+/* 单路由动画 ->组件内部 transition :'类名' */
+.test-enter-active,
+.test-leave-active {
+    transition: 0.5s ease all;
+}
+
+.test-enter,
+.test-leave-active {
+    margin-left: -1000px;
+}

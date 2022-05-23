@@ -1,21 +1,18 @@
 <template>
   <div>
     <!-- 跳转 声明式跳转 router-link -->
-    <div>
-      <nuxt-link to="/">首页</nuxt-link>
-      <nuxt-link to="/goods">商品</nuxt-link>
-      <nuxt-link to="/user">用户</nuxt-link>
-      <nuxt-link to="/login">登录</nuxt-link>
-      <nuxt-link to="/reg">注册</nuxt-link>
-    </div>
+    <app-header />
     <!-- 展示区 -->
     <nuxt />
   </div>
 </template>
 <script>
+import AppHeader from "./app-header.vue";
 export default {
   // middleware: "auth",   // 布局层级的中间件定义
-
+  components: {
+    AppHeader,
+  },
   middleware() {
     console.log("middleware layouts");
   },
