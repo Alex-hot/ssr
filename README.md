@@ -20,3 +20,7 @@
       - nuxt.config.js -> layouts -> pages
   - validate
     - 参数校验，校验失败，则自动跳转错误页面
+  - asyncData
+  - fetch
+
+
